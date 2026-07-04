@@ -2,7 +2,7 @@
 ##Installing a Virtual Machine
 
 
-##1a-1 Virtualisation and Linux setup
+## 1a-1 Virtualisation and Linux setup
 ###This is the VMware version that I will be using.
 <img width="487" height="385" alt="vmware installation" src="https://github.com/user-attachments/assets/582580df-bd0f-47bf-a2f7-b0b5bdab17a2" />
 
