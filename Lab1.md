@@ -38,14 +38,19 @@ The difference between update and upgrade is that update refreshes the list of a
 
 ### 1a Reflection Questions
 What challenges did you encounter during the virtual machine setup?
+I encounted a graphics card driver error. I solved it by switching to vmware instead.
 
 What did you learn about virtualisation tools and their differences?
+I learnt that there are differernt virtualisation tools that are used for different purposes. A local VM is easier to reset, clone, test, and free. While cloud virtualisation are ahrder to reset, clone, and are usually paid subscriptions.
 
 How confident do you feel using Ubuntu after completing this lab?
+I feel more confident as compared to previously as this lab has given me hands on experience.
 
 In what ways can a virtualised Linux environment help in industry scenarios?
+A virtualised Linux environment helps in industry scenarios as it allows developers to create safe test environments before deloying live updates. 
 
 What would you do differently if setting up another VM?
+I would immediately use vmware as it is more beginner friendly.
 
 
 # Lab 1a Ubuntu GUI & CLI Familiarisation + Software Installation Methods
@@ -238,12 +243,30 @@ Personally, I would prefer GUI and binary downloads as thats what I am most used
 
 ### 1a-2 Reflection Questions
 Which file editors are best for remote access and why?
+Nano file editor is best for remote access as it is a terminal editor. While gedit is a GUI editor which you cannot use in remote access. 
 
 Compare Software Installation Methods: Saas vs binaries vs repos vs source
+Saas are softwares accessed through online through a browser. For example Google Docs
+Binaries are ready made installers direct from the source. They are simple to install but might not update automatically.
+Repos are package managers downloaded from the app store. They are safer as they have been certified before being uploaded.
+Source is compiling software from its source code. This gives developers more control on what they download but is not beginner friendly. 
 
 what are the pros/cons of each method from user and developer perspectives
+User
+Saas: Easiest as there is no download needed. However, it might have limited functions.
+Binaries: Average for full functionality. However, less secure as not all downloads are safe.
+Repos:  Easiest for full functionality. However, updates might not come as fast as straight from the source.
+Source: Hardest as this requires programming knowledge. 
+
+Developer
+Saas: Allows for fast updates for users.
+Binaries: Best for full functionality.
+Repos: Might be harder to get verified which might delay version updates.
+Source: Full flexibility but users might have problems installing.
+
 
 How did using CLI improve your understanding of Linux
+Using CLI allows me to better understand Linux better as I was exposed to terminal commands instead of a full GUI interface. 
 
 ## 1b-1 Linux Services, SSH, Firewalls & Compression
 ### Apache Web Server Installed
@@ -482,12 +505,16 @@ During this lab, I have worked with Linux networking. It has helped me understan
 
 ### 1b-1 Reflection Questions
 Whats the role of a firewall in managing services?
+The role of a firewall in managing services is to control the traffic going to the server. 
 
 How did SSH access deepen your understanding of Linux as a server?
+SSH access helped me to understand how to install softwares, edit files, restart services, transfer files, and troubleshoot problems using only the command line. 
 
 Why is file compression important in server contexts?
+File compression is important in server contexts as by compressing the file, it reduces the size, which in turn ensures that transfers are moreefficient.
 
 How does user privilege management help secure system?
+User privilege management helps secure the system as you are able to control what users are able to access and edit what files.
 
 ## 1b-2 Linux File Permissions & Gropu Access Control
 ### Three Users Created
@@ -613,12 +640,18 @@ sudo ls -ld /home/shared
 
 ### 1b-2 Reflection Questions
 How do Linux permissions differ from Windows ACL? 
+Linux permissions are simpler, which windows ACL are more complex.
+Linux only has read, write, execute. While Windows ACL has read, write, modify, full control, inheritance, and deny rules.
 
 Whats the effect of chmod 770 vs 750?
+chmod 770 gives the owner and group permission to read, write and execute. 
+chmod 750 gives the owner full access, while the group can only read and execute, but unable to write. 
 
 What is the risk of adding users to the sudo group?
+By adding users to the sudo group, it gives them admin privileges. If given to the wrong user, this could lead to the user misusing the privilege to damage the system.
 
 Why is it important to verify with 'su' and 'whoami'?
+By verifying su with whoami, it confirms which user you are currently controlling. 
 
 ## 1b-3 File Search, Analysis & Archiving in Linux
 ### Archieve Extraction
@@ -716,11 +749,14 @@ NIL
 
 ### 1b-3 Reflection Questions
 Which command-line tool was the most useful in solving the questions? 
+The most useful was grep. This allowed me to search text inside files. 
 
 How might these search tools help in cybersecurity investigations? 
+These search tools help in cybersecurity investigations as investigators can quickly search through large number of files for key strings that are useful in their investigation.
 
 How could scripting improve repetitive search tasks? 
+By scripting, you can combine multiple commands into one automated process. This inturn, saves time and reduces human error.
 
 What limitations did you encounter using grep and find? 
-
+grep only finds exact matches unless -i is used. find would not work if the command is ran in the wrong directory. 
  
