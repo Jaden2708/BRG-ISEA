@@ -80,10 +80,15 @@ Total cost: 12051 + 1504.72 + 579 + 4641 = $18775.72
 
 ### Sources
 [HP Color LaserJet Pro MFP 3303fdw Printer](https://www.hp.com/sg-en/shop/hp-color-laserjet-pro-mfp-3303fdw-499m8a.html#specs)
+
 [CANON PIXMA TS4070](https://sg.canon/en/consumer/pixma-ts4070/main/specification?category=printing&subCategory=inkjet-printers)
+
 [HP ink Cartridges](https://www.hp.com/sg-en/shop/ink-toner.html?supply-related=hp-color-laserjet-pro-mfp-3303fdw-499m8a-)
+
 [CANON ink cartridges](https://sg.canon/en/business/products/search?max=&category=others&subCategory=consumables&consumableType=INK_CARTRIDGE&relatedProduct=121084)
+
 [Electricity](https://www.spgroup.com.sg/our-services/utilities/tariff-information)
+
 [Printer Paper](https://popular.com.sg/collections/paperone-copier-paper/products/paperone-premium-paper-a4-100g-500-s-1)
 
 
