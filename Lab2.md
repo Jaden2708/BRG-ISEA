@@ -1,26 +1,110 @@
 # Lab 2 ISEA
 ## 2a-1 Total Cost of Ownership Analysis
+### Printer Models Chosen
+|Brand|Model|Type|Intended use|
+|Canon|PIXMA TS4070|Inkjet|Home|
+- **Price: **$169
+- **Black ink cartridge price: **$39/400 pages
+- **Coloured ink cartridge price: **$58/400 pages
+- **Electricity while operating: **0.015kWh
+- - **Time taken to print 1 duplex page: ** 11.75s
+<img width="1793" height="628" alt="inkjet" src="https://github.com/user-attachments/assets/ea47975a-562f-43f0-b91b-223eb748b328" />
+<img width="1282" height="347" alt="canon inkjet cartridge price" src="https://github.com/user-attachments/assets/6ad20a8e-1a80-4600-8dbe-e5aba0f7b252" />
+<img width="780" height="187" alt="canon inkjet electricity" src="https://github.com/user-attachments/assets/46a7bea2-9aa7-408d-9e56-6fbaa52e5744" />
+<img width="528" height="174" alt="canon inkjet print speed" src="https://github.com/user-attachments/assets/537b5466-aaa3-4f86-a6a5-0fa8afe39777" />
+
+
+
+|Brand|Model|Type|Intended use|
+|HP|HP Color LaserJet Pro MFP 3303fdw|LaserJet|Office|
+- **Price: **$579
+- **Black ink cartridge price: **$144/3200 pages
+- **Coloured ink cartridge price: **$165/2500 pages
+- **Electricity while operating: **0.416kWh
+- - **Time taken to print 1 duplex page: ** 10.9s
+<img width="1762" height="719" alt="Laserjet" src="https://github.com/user-attachments/assets/d4aca3c4-c200-4b39-b44f-5b7a347e89fb" />
+<img width="1739" height="642" alt="HP laserjet black cartridge price" src="https://github.com/user-attachments/assets/97bba90a-3f5e-4811-81d3-2779324c4fb5" />
+<img width="1723" height="649" alt="HP laserjet yellow cartridge price" src="https://github.com/user-attachments/assets/f52e9225-1732-456c-873e-5be8928d8bd2" />
+<img width="916" height="222" alt="hp electricity " src="https://github.com/user-attachments/assets/d06048fd-ec0b-408d-b642-408144813c31" />
+<img width="735" height="114" alt="hp print speed" src="https://github.com/user-attachments/assets/bf09adf2-798b-4b17-9b3d-0015e2f54270" />
+
+
 ### Assumptions
 Comparison Period: 5 Years
 Pages per week: 750
 Power usage per week: 40 hours
-Cost of electricity per kWh(Local provider): 
-Cost of paper (ream of 500): $6
-Ink yield per cartridge: 
-### Printer Models Chosen
-|Brand|Model|Type|Intended use|
-|---|---|---|---|
+Cost of electricity per kWh(Local provider): $0.3478/kWh
+Cost of paper (ream of 500): $11.90
+Half coloured Half black
+Only official ink cartridges
+<img width="629" height="292" alt="electricity price" src="https://github.com/user-attachments/assets/63163d76-e5f5-41bb-973f-d19446ba4cd9" />
+<img width="924" height="635" alt="printer paper price" src="https://github.com/user-attachments/assets/fcccbc20-f547-4751-9440-2806794e3c5a" />
+
+**Calculations**
+**1 Year**
+Hours running per year: 40 hours * 52 weeks = 2080 hours/year
+Pages used per year: 750 pages * 52 weeks = 39000 pages/year
+
+**5 Years**
+Pages used per 5 years: 39000 pages * 5 years = 195000 pages /5 years
+Cost of paper used per 5 years: 195000 pages/500 pages * $11.90 = $4641
+Hours running per 5 years: 2080 hours * 5 years = 10400 hours/5 year
+
+**Inkjet**
+Inkjet Electricity: 10400 hours * 0.015kWh = 156kWh/5 years
+Price to run inkjet: 156kWh * $0.3478 = $52.26
+Ink cartridges used for inkjet: 195000 pages/ 400 pages = 487.5
+Number of black/coloured for inkjet: 487.5/2 = 244 rounded up
+Price of black cartridges for inkjet: 244 * $39 = $9516 / 5years
+Price of coloured cartridges for inkjet: 244 * $58 = $14152 / 5years
+Total price of carts: $9516 + 14152 = $23668
+Total cost: 23668+169+52.26+4641 = $28530.26
+
+**LaserJet**
+LaserJet Electricity 10400 hours * 0.416kWh = 4326.4kWh/5 years
+Price to run Laserjet: 4326.4kWh * $0.3478 = $1504.72
+Ink cartridges used for laserjet: 195000 pages / 2500 pages = 78 cartridges
+Number of black/coloured for laserjet: 78 / 2 = 39 cartridges
+Price of black cartridges for laserjet: 39 * $144 = $5616
+Price of coloured cartridges for laserjet: 39 * $165 = $6435
+Total price of carts: $6435 + $5616 = $12051
+Total cost: 12051 + 1504.72 + 579 + 4641 = $18775.72
+
+### 5 Year Comparison
+|Printer|Inkjet Canon|LaserJet HP|
+|Price|$169|$579|
+|Electricity|$52.26|$1504.72|
+|Cost of paper|$4641|$4641|
+|Price of ink carts|$23668|$12051|
+|Total Cost|$28530.26|$18775.72|
+
+### Sources
+[HP Color LaserJet Pro MFP 3303fdw Printer](https://www.hp.com/sg-en/shop/hp-color-laserjet-pro-mfp-3303fdw-499m8a.html#specs)
+[CANON PIXMA TS4070](https://sg.canon/en/consumer/pixma-ts4070/main/specification?category=printing&subCategory=inkjet-printers)
+[HP ink Cartridges](https://www.hp.com/sg-en/shop/ink-toner.html?supply-related=hp-color-laserjet-pro-mfp-3303fdw-499m8a-)
+[CANON ink cartridges](https://sg.canon/en/business/products/search?max=&category=others&subCategory=consumables&consumableType=INK_CARTRIDGE&relatedProduct=121084)
+[Electricity](https://www.spgroup.com.sg/our-services/utilities/tariff-information)
+[Printer Paper](https://popular.com.sg/collections/paperone-copier-paper/products/paperone-premium-paper-a4-100g-500-s-1)
+
 
 ### 2a-1 Reflection Questions
 Based on the TCO, which printer is the most cost-effective over 5 years? 
+Based on the TCO, the HP LaserJet is the most cost-effective over 5 years coming in at $18,775.72 for 5 years of usage as compared to the Canon inkjet which costs $28,530.26 for 5 years of usage. 
 
 Would the answer change for a home user who prints only 5 pages per week? 
+The answer would definitely change for a home user who prints only 5 pages per week as most of the cost from the canon came from the price of ink cartridges. 
 
 What other non-financial factors could influence printer selection? 
+Warranty - Different companies offer different lengths of warranty incase of printer breakdown/spoilage.
+Amount of time in standby mode - The printers both has different electricity draw in standby mode.
+Speed - Both printers has only a 1 second difference in speed but overtime, that time would add up.
+Reliability - Both printers has different reliability. For example, the laserjet HP is made for heavy usage in an office setting which would be more reliable as compared to the home Canon inkjet printer. 
 
 What cost components are more significant for a large workgroup printer? 
+The cost components that are more significant for a large workgroup printer would be the electricity cost and the price of the printer. Take the 2 printers as an example. For the HP laserjet made for an office setting, the price of the printer is $579 as compared to the home printer which was $169. As for the electricity cost, the office printer came in at $1504.72 while the home printer only came in at $52.26. 
 
 At what point (in years/pages) do the two printer options break even in cost? 
+The two printer options would break even in cost at approximately 10.5 weeks. The laserjet would become cheaper. As before even printing, the difference in cost starts off at $410 just for the printer price alone. However, the home printer running cost per week is $91.23 whereas the laserprinter running cost per week comes in at only $52.14. That is a $39.09 weekly saving from the LaserJet. So to breakeven, it would be 410 / 39.09 = 10.49 weeks. 
 
 ## 2b-1 Cloud Web Server Deployment
 ### EC2 Instance Launched
