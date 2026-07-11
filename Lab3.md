@@ -1,4 +1,4 @@
-#Lab 3 ISEA
+# Lab 3 ISEA
 ## 3a-1 Domain, DNS, and TLS certificates
 ### Activity 1
 ### Domain name registered
