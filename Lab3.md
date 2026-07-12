@@ -330,24 +330,6 @@ sudo apt install -y curl wget gnupg lsb-release ca-certificates
 <img width="806" height="255" alt="3b2 1 3" src="https://github.com/user-attachments/assets/ebbd1de0-cddf-401c-ae5e-d486fd636937" />
 <img width="798" height="612" alt="3b2 1 4" src="https://github.com/user-attachments/assets/0296393f-194d-49b7-a026-c9dc40059f76" />
 
-### Installing Docker in Ubuntu
-I first check if docker is installed. Since docker is not installed, I proceed to install docker.
-When I tried to run newgrp, I had to install using sudo apt install util-linux-extra
-```bash
-sudo apt remove -y docker-engine docker.io containerd runc
-sudo apt install -y docker.io
-sudo systemctl start docker
-sudo systemctl enable docker
-docker --version
-sudo docker run hello-world
-sudo usermod -aG docker $USER
-newgrp docker
-sudo apt install util-linux-extra
-```
-<img width="795" height="620" alt="3b2 2 1" src="https://github.com/user-attachments/assets/a487c6f4-bb3c-4119-831b-deb789d80e2e" />
-<img width="563" height="100" alt="3b2 2 2" src="https://github.com/user-attachments/assets/0d621fc8-9b60-4194-a195-cdc1e88baa5b" />
-<img width="646" height="542" alt="3b2 2 3" src="https://github.com/user-attachments/assets/93d822b2-e1c1-4ba6-85d3-bbb321d1d0f9" />
-<img width="805" height="605" alt="3b2 2 4" src="https://github.com/user-attachments/assets/f6b5c6e1-0eaf-4924-aaba-20aef63a8140" />
 
 ### Installing MariaDB
 First I install MariaDB, start and enable MariaDB, and perform a secure MariaDB installation, then verify MariaDB. When I used sudo mysql-secure-installation, it said command not found. Turns out, the command was sudo mariadb-secure-installation instead. 
@@ -366,21 +348,6 @@ EXIT;
 <img width="811" height="248" alt="3b2 3 4" src="https://github.com/user-attachments/assets/239fec2d-e586-4f40-91b8-4db3f0a0463c" />
 <img width="414" height="252" alt="3b2 3 5" src="https://github.com/user-attachments/assets/e57f84a6-85c4-4ba1-91b6-74c84b7e8329" />
 
-### Installing Syslog Server
-Here I install the Syslog Server. There were no troubles encountered.
-```bash
-sudo apt install -y rsyslog
-sudo systemctl start rsyslog
-sudo systemctl enable rsyslog
-sudo nano /etc/rsyslog.conf
-sudo systemctl restart rsyslog
-sudo ufw allow 514/udp
-sudo ufw allow 514/tcp
-sudo tail -f /var/log/syslog
-```
-<img width="564" height="144" alt="3b2 4 1" src="https://github.com/user-attachments/assets/4112834d-c7b3-4361-8116-77738baf4899" />
-<img width="789" height="620" alt="3b2 4 2" src="https://github.com/user-attachments/assets/1dcc46e1-3d4b-404d-a1b9-ddf26f5a7f89" />
-<img width="794" height="528" alt="3b2 4 3" src="https://github.com/user-attachments/assets/67e0ba8c-ac53-4cb5-bce8-c9768907384b" />
 
 ### Installing NTP Server
 Here I install NTP Server for time synchronisation. No troubles encountered.
